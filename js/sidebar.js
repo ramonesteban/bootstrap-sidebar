@@ -108,7 +108,7 @@
 
   $('html').on('click.bs.sidebar.autohide', function(event){
     var $this = $(event.target);
-    var isButtonOrSidebar = $this.is('.sidebar, [data-toggle="sidebar"]') || $this.parents('.sidebar, [data-toggle="sidebar"]').length;
+    var isButtonOrSidebar = $this.is('.sidebar', '[data-toggle="sidebar"]') || $this.parents('.sidebar', '[data-toggle="sidebar"]').length;
     if (isButtonOrSidebar) {
       return;
     } else {
