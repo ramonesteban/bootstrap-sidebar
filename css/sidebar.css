@@ -63,8 +63,8 @@ body {
   -webkit-transform: translate3d(0,0,0);
      -moz-transform: none;
           transform: translate3d(0,0,0);
-}  
-  
+}
+
 @media (min-width: 768px) {
   .row .sidebar.sidebar-left.sidebar-sm-show {
     left: 0;
@@ -77,7 +77,7 @@ body {
     -webkit-transform: translate3d(0,0,0);
        -moz-transform: none;
             transform: translate3d(0,0,0);
-  }  
+  }
 } 
 
 @media (min-width: 992px) {
@@ -124,8 +124,8 @@ body {
 
 .sidebar.sidebar-left.sidebar-open {
   -webkit-transform: translate3d(0,0,0);
-          transform: translate3d(0,0,0);
      -moz-transform: none;
+          transform: translate3d(0,0,0);
 }
 
 .sidebar.sidebar-right {
@@ -136,6 +136,6 @@ body {
 
 .sidebar.sidebar-right.sidebar-open {
   -webkit-transform: translate3d(0,0,0);
-          transform: translate3d(0,0,0);
      -moz-transform: none;
+          transform: translate3d(0,0,0);
 }
